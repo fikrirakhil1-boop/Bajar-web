@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #333;
+            color: #fff;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Ecommerce Shop</h1>
+        <p>Explore our collection of clothes, shoes, and watches.</p>
+    </header>
+    <div class="container">
+        <section>
+            <div class="product">
+                <img src="path/to/clothes.jpg" alt="Clothes">
+                <h2>Fashionable Clothes</h2>
+                <p>Description of the fashionable clothes.</p>
+            </div>
+            <div class="product">
+                <img src="path/to/shoes.jpg" alt="Shoes">
+                <h2>Stylish Shoes</h2>
+                <p>Description of the stylish shoes.</p>
+            </div>
+            <div class="product">
+                <img src="path/to/watches.jpg" alt="Watches">
+                <h2>Modern Watches</h2>
+                <p>Description of the modern watches.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© 2026 Ecommerce Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
